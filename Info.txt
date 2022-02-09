@@ -1,0 +1,18 @@
+------------------------------------------------------------------------------------------------------------------------
+
+POST	http://localhost:8080/api/auth/signup	    créer un nouveau compte
+POST	http://localhost:8080/api/auth/signin       se connecter se connecter à un compte
+GET	    http://localhost:8080/api/test/all          récupérer du contenu public
+GET	    http://localhost:8080/api/test/user	        accéder au contenu de l'utilisateur
+GET	    http://localhost:8080/api/test/mod	        accéder au contenu du modérateur
+GET	    http://localhost:8080/api/test/admin	    accéder au contenu de l'administrateur
+
+------------------------------------------------------------------------------------------------------------------------
+
+{
+	"username": "admin",
+	"email": "admin@kidam.com",
+	"password": "12345678",
+	"roles": ["admin", "moderator", "user"]
+}
+
