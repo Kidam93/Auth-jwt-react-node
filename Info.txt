@@ -16,3 +16,6 @@ GET	    http://localhost:8080/api/test/admin	    accéder au contenu de l'admini
 	"roles": ["admin", "moderator", "user"]
 }
 
+------------------------------------------------------------------------------------------------------------------------
+
+npx create-react-app react-jwt-auth --template cra-template-pwa
